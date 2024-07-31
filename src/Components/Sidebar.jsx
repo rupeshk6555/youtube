@@ -38,18 +38,16 @@ const Sidebar = () => {
     <div
       className={` ${
         open ? "bg-white mb-56 text-black" : "-translate-x-[1600px]"
-      } lg:w-[25%] 2xl:w-[19%] h-full pb-36 flex fixed p-4 overflow-y-scroll overflow-hidden cursor-pointer ${
-        isDarkMode ? "bg-gray-800 text-white" : "bg-white text-black"
-      }`}
+      } lg:w-[25%] 2xl:w-[19%] h-full pb-36 flex fixed p-4 overflow-y-scroll overflow-hidden cursor-pointer 
+        
+      `}
     >
       <div className="w-full  ">
         {/* Categories */}
         {filteredCategories.map((item, index) => (
           <div key={index} className={`mb-0`}>
             <div
-              className={`flex items-center w-full py-2  hover:bg-gray-300 ${
-                isDarkMode ? "  hover:text-black" : ""
-              }`}
+              className={`flex items-center w-full py-2  hover:bg-gray-300`}
               onClick={() => handleItemClick(item.text)}
             >
               <item.icon className="ml-2 md:size-6 size-4" />
@@ -66,9 +64,7 @@ const Sidebar = () => {
         {filteredExplore.map((item, index) => (
           <div key={index} className={`mb-1`}>
             <div
-              className={`flex items-center w-full py-2 hover:bg-gray-300  ${
-                isDarkMode ? "  hover:text-black" : ""
-              }`}
+              className={`flex items-center w-full py-2 hover:bg-gray-300`}
               onClick={() => handleItemClick(item.text)}
             >
               <item.icon className="ml-2 md:size-6 size-4" />
@@ -84,9 +80,7 @@ const Sidebar = () => {
         {menu.map((item, index) => (
           <div key={index} className={`mb-1`}>
             <div
-              className={`flex items-center w-full py-2  hover:bg-gray-300 ${
-                isDarkMode ? "  hover:text-black" : ""
-              }`}
+              className={`flex items-center w-full py-2  hover:bg-gray-300  `}
             >
               <item.icon className="ml-2 md:size-6 size-4" />
               <span className={`ml-5 md:text-lg text-xs pr-6`}>
