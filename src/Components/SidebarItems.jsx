@@ -9,7 +9,6 @@
 // import { MdLiveTv, MdLocalFireDepartment, MdOutlineSubscriptions } from "react-icons/md";
 // import { RiFeedbackLine, RiLightbulbLine } from "react-icons/ri";
 // import { SiYoutubeshorts } from "react-icons/si";
- 
 
 //   const SidebarItems = [
 //   {
@@ -28,10 +27,7 @@
 //     link: "/subscriptions",
 //   },
 
-  
-   
 // ];
-
 
 //  const Explore = [
 //   {
@@ -109,16 +105,13 @@
 
 // export default {SidebarItems ,Explore}
 
-// 
+//
 
 // Import React
 import React from "react";
 
 // Import icons from react-icons
-import {
-  AiFillHome,
-  AiOutlineFlag,
-} from "react-icons/ai";
+import { AiFillHome, AiOutlineFlag } from "react-icons/ai";
 import {
   MdLocalFireDepartment,
   MdLiveTv,
@@ -220,7 +213,7 @@ export const explore = [
 ];
 
 // Define menu array
- export const menu = [
+export const menu = [
   {
     icon: FiSettings,
     text: "Settings",
