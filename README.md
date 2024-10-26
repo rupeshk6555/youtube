@@ -1,7 +1,7 @@
 
 ## Demo
 
-https://youtube-rk.vercel.app
+https://youtuberk.netlify.app
 
 
 # Youtube clone
