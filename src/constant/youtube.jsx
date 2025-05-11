@@ -3,7 +3,8 @@
 // export const ApI_key = "AIzaSyCKIYHU1IkB8-bABKC8rGrEwjm9Z_5Iz88";
 // export const ApI_key = "AIzaSyCTj8YmGWvFIMl9CMO2x-xqRDmBLKm--2w";
 // export const ApI_key = "AIzaSyDjNx7ud_tLlqlo_-fDqDmwtc3qdOj3Rc0";
-export const ApI_key = "AIzaSyBRdnkR2BtuomdH0cgvcXDpyLjuBrzI0pc";
+// export const ApI_key = "AIzaSyBRdnkR2BtuomdH0cgvcXDpyLjuBrzI0pc";
+export const ApI_key = "AIzaSyCcWrTgTqHoPoSspmhucFnkF3sLsEVk1Qk";
 export const BASE_URL = "https://www.googleapis.com/youtube/v3";
 export const YOUTUBE_VIDEO_API = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&locale=in&maxResults=50&regionCode=in&key=${ApI_key}`;
 // export const SEARCH_SUGGESTIONS_API = `http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=`;

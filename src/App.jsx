@@ -3,6 +3,8 @@ import Feed from "./Components/Feed";
 import Navbar from "./Components/Navbar";
 import Body from "./Components/Body";
 import Watch from "./Components/Watch";
+import Footer from "./Components/Footer";
+import NotFound from "./Components/NotFound";
 
 const router = createBrowserRouter([
   {
@@ -11,6 +13,7 @@ const router = createBrowserRouter([
       <>
         <Navbar />
         <Body />
+        <Footer />
       </>
     ),
     children: [
@@ -23,6 +26,7 @@ const router = createBrowserRouter([
         element: <Watch />,
       },
     ],
+    errorElement: <NotFound />,
   },
 ]);
 

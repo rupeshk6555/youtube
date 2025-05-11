@@ -6,7 +6,7 @@
 // import moment from "moment";
 // import { setViewCount } from "../utils/appSlice";
 
-// const VideoCart = ({ item }) => {
+// const VideoCard = ({ item }) => {
 //   const open = useSelector((store) => store.app.open);
 //   const [ytIcon, setYtIcon] = useState("");
 //   const [viewCount, setViewCountState] = useState("");
@@ -89,7 +89,7 @@
 //   );
 // };
 
-// export default VideoCart;
+// export default VideoCard;
 
 import axios from "axios";
 import React, { useEffect, useState } from "react";
@@ -100,7 +100,7 @@ import moment from "moment";
 import { setViewCount } from "../utils/appSlice";
 import { useTheme } from "../ThemeContext"; // Import useTheme for dark mode
 
-const VideoCart = ({ item }) => {
+const VideoCard = ({ item }) => {
   const { isDarkMode } = useTheme(); // Access dark mode state
   const open = useSelector((store) => store.app.open);
   const [ytIcon, setYtIcon] = useState("");
@@ -176,4 +176,4 @@ const VideoCart = ({ item }) => {
   );
 };
 
-export default VideoCart;
+export default VideoCard;

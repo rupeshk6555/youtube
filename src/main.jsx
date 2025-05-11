@@ -25,8 +25,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Provider store={store}>
       <ThemeProvider>
-        {" "}
-        {/* Wrap App with ThemeProvider */}
+         
         <App />
       </ThemeProvider>
     </Provider>
