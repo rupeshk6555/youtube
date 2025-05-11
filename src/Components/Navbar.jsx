@@ -144,7 +144,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { IoIosSearch } from "react-icons/io";
 import { RiVideoAddLine } from "react-icons/ri";
 import { FiBell } from "react-icons/fi";
-import { FaMoon, FaSun } from "react-icons/fa";
+import { FaMoon, FaSun,FaYoutube } from "react-icons/fa";
 import { HiOutlineDotsVertical } from "react-icons/hi";
 import Avatar from "react-avatar";
 import { useDispatch } from "react-redux";
@@ -209,31 +209,25 @@ const Navbar = () => {
         <GiHamburgerMenu size="22px" />
       </button>
 
-      <Link to="/" className="ml-2 flex items-center">
+    <Link to="/" className="ml-2 flex items-center">
         {isDarkMode ? (
           <>
-            <img
-              className="h-8 mr-2"
-              src="/src/assets/logomobile.png"
-              alt="VideoHub Logo"
-            />
+            <FaYoutube className="mr-2 text-red-600" size={24} />
+
             <span className="text-white font-bold text-xl hidden sm:inline tracking-tight">
               VideoHub
             </span>
           </>
         ) : (
           <>
-            <img
-              className="h-8 mr-2"
-              src="/src/assets/logomobile.png"
-              alt="VideoHub Logo"
-            />
+            <FaYoutube className="mr-2 text-red-600" size={24} />
             <span className="text-black font-bold text-xl hidden sm:inline tracking-tight">
               VideoHub
             </span>
           </>
         )}
       </Link>
+        
     </div>
   );
 
